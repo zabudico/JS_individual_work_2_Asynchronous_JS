@@ -22,39 +22,26 @@ Advanced JavaScript features including asynchronous JavaScript, modules, and err
 
 ## 3.Краткая документация к проекту
 
-'index.js' - Этот скрипт служит в качестве точки входа в проект. Он читает данные о транзакциях из файла JSON, анализирует их с помощью TransactionAnalyzer и выводит результаты в консоль.
+'index.js' - Этот скрипт служит в качестве точки входа в проект. Он вызывает функцию `updateActivity` из файла `activity.js`
 
-'TransactionAnalyzer.js' - Этот файл определяет класс TransactionAnalyzer, отвечающий за анализ данных о транзакциях. Он предоставляет методы для различных анализов, таких как подсчет общей суммы, получение уникальных типов транзакций, поиск транзакций по дате и т. д.
+'activity.js' - Этот файл определяет работу всего проекта, в частности реализацию функции `getRandomActivity`, которая получает случаюную активность (предложение чем можно заняться капитану Смиту) с https://www.boredapi.com/api/activity/ при помоши API. Эта функция вызываеться в `updateActivity`, которая обновляет содержимое тега <i id="activity"></i> на html странице index.html
 
-'transactions.json' - В этом файле содержаться все совершённые транзакции, их мы и обрабатываем.
+'index.html' - В этом файле содержаться вёрстка основной (единственной) страницы проекта, на ней мы выводим (при помощи html, css, js, API) активность , которой капитан Смит может заняться.
+
+`index.css` - Файл содержащий стили для `index.html`
 
 ## 4.Примеры использования проекта
 
-Пример 1: Получение уникальных типов транзакций
-// в комментариях находиться результат работы кода.
-
-```console.log("Unique Transaction Types:", analyzer.getUniqueTransactionType());```
-//  Unique Transaction Types: [ 'debit', 'credit' ]
-
-Пример 2: Подсчет общей суммы
-
-```console.log("Общая сумма:", analyzer.calculateTotalAmount());``` // Total Amount: 8000
-
-Пример 3: Подсчет общей суммы для определенной даты
-
-```console.log("Общая сумма за 2019-01-01:",analyzer.calculateTotalAmountByDate(2019, 1, 1));```// Total Amount for 2019-01-01: 100
-
-Пример 4: Вывод строки представления транзакции по ID   
 
 ```
-const transactionId = "97";
-console.log(`\nString representation of transaction with ID ${transactionId}:`);
-console.log(analyzer.string(transactionId));
+//index.js
+
+// Initially update the activity
+updateActivity();
+
+// Update the activity every minute
+setInterval(updateActivity, 60000);
 ```
-
-![image](https://github.com/zabudico/JS_individual_work_1_Transactions/assets/112975702/78482f66-9f68-446e-a70c-0280f44834eb)
-
-//В проекте реализованно множество других методов для работы с транзакциями
 
 ## 5.Ответы на контрольные вопросы
 

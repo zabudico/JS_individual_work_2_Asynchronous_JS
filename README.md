@@ -28,7 +28,7 @@ Advanced JavaScript features including asynchronous JavaScript, modules, and err
 
 'index.html' - В этом файле содержаться вёрстка основной (единственной) страницы проекта, на ней мы выводим (при помощи html, css, js, API) активность , которой капитан Смит может заняться.
 
-`index.css` - Файл содержащий стили для `index.html`
+'index.css' - Файл содержащий стили для `index.html`
 
 ## 4.Примеры использования проекта
 

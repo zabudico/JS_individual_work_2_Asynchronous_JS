@@ -9,14 +9,23 @@ Advanced JavaScript features including asynchronous JavaScript, modules, and err
 1. Убедитесь, что у вас есть подключение к интернету.
 
 2. Клонируйте репозиторий проекта.
+   
+```  
+git clone https://github.com/<your-github-username>/activity-for-captain-smith.git
+ ```
 
-```   git clone https://github.com/<your-github-username>/activity-for-captain-smith.git  ```
-
-4. Перейдите в каталог проекта.
+3. Перейдите в каталог проекта.
+```
+   cd activity-for-captain-smith
+```
 
 5. Запустите сервер разработки.
-
-6. Откройте страницу `index.html` в браузере.
+```
+npm install
+npm start
+```
+7. Откройте страницу `index.html` в браузере.
+   Перейдите по ссылке `http://localhost:3000` в вашем браузере.
 
 ## 2.Описание лабораторной работы
 

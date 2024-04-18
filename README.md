@@ -1,4 +1,4 @@
-# JS_individual_work_2_Asynchronous_JS
+![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/5cb69e28-32c2-44a9-890b-1b9c30f65985)# JS_individual_work_2_Asynchronous_JS
 
 Advanced JavaScript features including asynchronous JavaScript, modules, and error handling.
 
@@ -10,7 +10,13 @@ Advanced JavaScript features including asynchronous JavaScript, modules, and err
 
 2. Клонируйте репозиторий проекта.
 
-3. Откройте в браузере файл `index.html` .
+```   git clone https://github.com/<your-github-username>/activity-for-captain-smith.git  ```
+
+4. Перейдите в каталог проекта.
+
+5. Запустите сервер разработки.
+
+6. Откройте страницу `index.html` в браузере.
 
 ## 2.Описание лабораторной работы
 

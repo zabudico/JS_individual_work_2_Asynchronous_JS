@@ -1,4 +1,4 @@
-![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/5cb69e28-32c2-44a9-890b-1b9c30f65985)# JS_individual_work_2_Asynchronous_JS
+# JS_individual_work_2_Asynchronous_JS
 
 Advanced JavaScript features including asynchronous JavaScript, modules, and error handling.
 

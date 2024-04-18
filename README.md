@@ -19,12 +19,13 @@ git clone https://github.com/<your-github-username>/activity-for-captain-smith.g
    cd activity-for-captain-smith
 ```
 
-5. Запустите сервер разработки.
+4. Запустите сервер разработки.
 ```
 npm install
 npm start
 ```
-7. Откройте страницу `index.html` в браузере.
+5. Откройте страницу `index.html` в браузере.
+   
    Перейдите по ссылке `http://localhost:3000` в вашем браузере.
 
 ## 2.Описание лабораторной работы

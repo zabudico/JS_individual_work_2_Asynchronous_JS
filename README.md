@@ -63,6 +63,10 @@ setInterval(updateActivity, 60000);
 
 ![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/7a5d0ecb-5b12-4ec5-bbca-0d3c0a9d8fcd)
 
+![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/960f3878-7ffe-47c4-bf50-844797dfa162)
+
+![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/bacdcb92-32be-474f-921c-dd81e2a14199)
+
 ## 5.Ответы на контрольные вопросы
 
 1. Какова цель проекта?

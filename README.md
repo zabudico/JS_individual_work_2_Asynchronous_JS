@@ -28,6 +28,8 @@ npm start
    
    Перейдите по ссылке `http://localhost:3000` в вашем браузере.
 
+   * У меня это `http://127.0.0.1:5500/`, так как я испольузую Live Server. У вас может отличаться , в зависимости от сервера, который вы используете для тестирования приложения
+
 ## 2.Описание лабораторной работы
 
 Цель: Ознакомить студентов с продвинутыми функциями JavaScript, включая асинхронный JavaScript, модули и обработку ошибок.
@@ -58,6 +60,8 @@ updateActivity();
 // Update the activity every minute
 setInterval(updateActivity, 60000);
 ```
+
+![image](https://github.com/zabudico/JS_individual_work_2_Asynchronous_JS/assets/112975702/7a5d0ecb-5b12-4ec5-bbca-0d3c0a9d8fcd)
 
 ## 5.Ответы на контрольные вопросы
 

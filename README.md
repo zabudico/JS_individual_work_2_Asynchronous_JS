@@ -1,4 +1,4 @@
-# JS_individual_work_2_Asynchronous_JS
+# JS_individual_work_2_Asynchronous_functions
 
 Advanced JavaScript features including asynchronous JavaScript, modules, and error handling.
 
